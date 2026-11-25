@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SERCOP Gestor de Carpeta Local</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body class="tab-mode">
+    <div class="container">
+      <div id="error-view" class="error-shell hidden">
+        <div class="error-card">
+          <div class="error-header">
+            <div class="error-icon" aria-hidden="true">!</div>
+            <div>
+              <h1 id="error-title" class="error-title">Página no compatible con SERCOP</h1>
+              <p id="error-message" class="error-message"></p>
+            </div>
+          </div>
+          <div id="error-url-box" class="error-url-box hidden"></div>
+        </div>
+      </div>
+
+      <div id="loading-view" class="loading-shell">
+        <div class="loading-card">
+          <div class="spinner" aria-hidden="true"></div>
+          <p class="loading-title">Consultando archivos del proceso SERCOP...</p>
+          <p id="loading-sub" class="loading-sub">Preparando consulta directa de tab=6...</p>
+        </div>
+      </div>
+
+      <div id="workspace-view" class="hidden">
+        <header class="sticky-header">
+          <div class="header-row">
+            <div>
+              <div class="process-title-line">
+                <h1 id="process-code" class="process-code">Proceso SERCOP</h1>
+                <span class="process-source">Extensión Edge · Carpeta local directa</span>
+              </div>
+              <p id="entity-name" class="entity-name"></p>
+            </div>
+            <div class="header-actions">
+              <a id="link-tab6" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm">
+                Ver tab=6
+              </a>
+              <a id="link-process" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm">
+                Ficha SERCOP
+              </a>
+              <button id="btn-refresh" type="button" class="btn btn-sm">Actualizar</button>
+            </div>
+          </div>
+        </header>
+
+        <nav class="tabs-bar" role="tablist">
+          <button id="tab-archivos" type="button" class="tab-btn active" role="tab">
+            Archivos <span id="files-count-label" class="mono">(0)</span>
+          </button>
+          <button id="tab-info" type="button" class="tab-btn" role="tab">
+            Información del Proceso
+          </button>
+        </nav>
+
+        <section id="panel-archivos" class="panel-body">
+          <div class="toolbar-box">
+            <div class="toolbar-top">
+              <div class="toolbar-actions">
+                <button id="btn-choose-folder" type="button" class="btn">
+                  Elegir carpeta local...
+                </button>
+                <button id="btn-save-folder" type="button" class="btn btn-primary">
+                  Guardar en carpeta elegida (<span id="selected-count">0</span>)
+                </button>
+              </div>
+              <div id="probe-badge" class="mono" style="font-size: 11px; color: #64748b;"></div>
+            </div>
+
+            <div class="toolbar-options">
+              <label class="checkbox-label">
+                <input id="chk-process-subfolder" type="checkbox" checked />
+                <span>Crear subcarpeta del proceso</span>
+              </label>
+              <label class="checkbox-label">
+                <input id="chk-group-phase" type="checkbox" />
+                <span>Organizar en subcarpetas por fase</span>
+              </label>
+              <span id="dest-preview" class="mono" style="font-size: 11px; color: #64748b;">
+                Ninguna carpeta seleccionada todavía
+              </span>
+            </div>
+
+            <div id="status-banner" class="status-banner hidden"></div>
+          </div>
+
+          <div class="filters-row">
+            <div class="filters-left">
+              <input
+                id="search-input"
+                type="search"
+                class="input-control"
+                placeholder="Buscar por nombre, razón social, usuario o fase..."
+              />
+              <select id="phase-select" class="select-control" aria-label="Filtrar por fase">
+                <option value="all">Todas las fases</option>
+              </select>
+            </div>
+
+            <div id="ext-segmented" class="segmented">
+              <button type="button" class="seg-btn active" data-ext="all">Todos</button>
+              <button type="button" class="seg-btn" data-ext="pdf">PDF</button>
+              <button type="button" class="seg-btn" data-ext="excel">Excel</button>
+              <button type="button" class="seg-btn" data-ext="word">Word</button>
+              <button type="button" class="seg-btn" data-ext="archive">ZIP/RAR</button>
+              <button type="button" class="seg-btn" data-ext="other">Otros</button>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table class="files-table">
+              <thead>
+                <tr>
+                  <th class="col-check">
+                    <input id="chk-select-all" type="checkbox" aria-label="Seleccionar todos los visibles" />
+                  </th>
+                  <th class="col-num">#</th>
+                  <th>Descripción y archivo resultante</th>
+                  <th>Fase / Sección</th>
+                  <th>Razón Social / Fecha</th>
+                  <th style="text-align: right;">Acción</th>
+                </tr>
+              </thead>
+              <tbody id="files-tbody"></tbody>
+            </table>
+          </div>
+
+          <div class="table-footer">
+            <span id="footer-summary" class="mono"></span>
+            <span>Guarda directamente en tu equipo respetando el nombre de la tabla y extensión original</span>
+          </div>
+        </section>
+
+        <section id="panel-info" class="panel-body hidden">
+          <div id="info-list" class="info-list"></div>
+        </section>
+      </div>
+    </div>
+
+    <script type="module" src="workspace.js"></script>
+  </body>
+</html>

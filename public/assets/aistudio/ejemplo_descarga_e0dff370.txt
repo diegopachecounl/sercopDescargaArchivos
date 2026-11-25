@@ -1,0 +1,140 @@
+<div class="ui-tabs-panels"><div id="form-detalle-procesos-master:panelDetalleTabs:infoTab" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-hidden="false" data-index="0">
+                        <div class="participacion-sticky-header">
+                            <div class="participacion-sticky-grid">
+                                <div class="participacion-sticky-col1-row1">
+                                    <span class="participacion-sticky-title">SIE-EEASA-121-2023</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row1"><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt731" name="form-detalle-procesos-master:panelDetalleTabs:j_idt731" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt731&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master&quot;,onco:function(xhr,status,args,data){masterDetailClearParticipacionSelection();;}});return false;" title="Cerrar detalle" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-times-circle"></span><span class="ui-button-text ui-c">Cerrar detalle</span></button>
+                                </div>
+                                <div class="participacion-sticky-col1-row2">
+                                    <span class="participacion-sticky-subtitle">EMPRESA ELECTRICA AMBATO REGIONAL CENTRO NORTE S.A.</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row2"></div>
+                            </div>
+                        </div>
+
+                        <div class="oppy-detail-content">
+                            <div class="participacion-proceso-info oppy-proceso-info">
+                                <h4>Información del Proceso</h4>
+                                <div class="oppy-detail-grid">
+                                    <span class="label">Año</span><span>2023</span>
+                                    <span class="label">Procedimiento compra</span><span>SUBASTA INVERSA ELECTRONICA</span>
+                                    <span class="label">Provincia</span><span>TUNGURAHUA</span>
+                                    <span class="label">Descripción proceso</span>
+                                    <span><span class="oppy-filtro-tooltip-target">ADQUISICION DE 3000 LUMINARIAS TIPO LED POTENCIA HASTA 110W, PROGRAMA  SAPG 2023</span>
+                                    </span>
+                                    <span class="label">Valor publicado</span>
+                                    <span>$ 748.200,00
+                                    </span>
+                                    <span class="label">Valor adjudicado</span>
+                                    <span class="participacion-proceso-valor-acento">$ 358.500,00
+                                    </span>
+                                    <span class="label">Variación [%]</span>
+                                    <span class="participacion-proceso-valor-acento">52.09 %
+                                    </span>
+                                    <span class="label">Proveedor adjudicado</span>
+                                    <span class="participacion-proceso-valor-acento">FEILO SYLVANIA N.V.
+                                    </span>
+                                        <span class="label">RUC proveedor</span><span>1790011119001</span>
+                                    <span class="label">Estado proceso</span><span class="participacion-proceso-valor-acento">FINALIZADA</span>
+                                    <span class="label">CPC (9)</span>
+                                    <span><span class="oppy-filtro-tooltip-target">465390014</span>
+                                    </span>
+                                    <span class="label">Descripción CPC (9)</span>
+                                    <span>SISTEMA DE AHORRO DE ENERGIA PARA LA ILUMINACION PUBLICA
+                                    </span>
+                                    <span class="label">Fecha publicación</span><span>2023-08-10</span>
+                                    <span class="label">Fecha adjudicación</span><span class="participacion-proceso-valor-acento">2023-09-25</span>
+                                    <span class="label">Link</span><a href="https://www.compraspublicas.gob.ec/ProcesoContratacion/compras/PC/informacionProcesoContratacion2.cpe?idSoliCompra=S_xWMqPVGYdOo-ugmwN6IYVV56-C-Wec4PkWzBkzkgE," class="ui-link ui-widget oppy-maestro-detalle-link-ver-completo" rel="noopener noreferrer" target="_blank">Ver proceso completo</a>
+                                </div>
+                            </div>
+                        </div></div><div id="form-detalle-procesos-master:panelDetalleTabs:participantesTab" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-helper-hidden" role="tabpanel" aria-hidden="true" data-index="1">
+                        <div class="participacion-sticky-header">
+                            <div class="participacion-sticky-grid">
+                                <div class="participacion-sticky-col1-row1">
+                                    <span class="participacion-sticky-title">SIE-EEASA-121-2023</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row1"><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt773" name="form-detalle-procesos-master:panelDetalleTabs:j_idt773" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt773&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master growl&quot;});return false;" title="Exportar participantes a Excel" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-download"></span><span class="ui-button-text ui-c">Exportar participantes a Excel</span></button><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt775" name="form-detalle-procesos-master:panelDetalleTabs:j_idt775" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt775&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master&quot;,onco:function(xhr,status,args,data){masterDetailClearParticipacionSelection();;}});return false;" title="Cerrar detalle" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-times-circle"></span><span class="ui-button-text ui-c">Cerrar detalle</span></button>
+                                </div>
+                                <div class="participacion-sticky-col1-row2">
+                                    <span class="participacion-sticky-subtitle">EMPRESA ELECTRICA AMBATO REGIONAL CENTRO NORTE S.A.</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row2"></div>
+                            </div>
+                        </div>
+                        <div class="oppy-detail-content participacion-participantes-tab">
+                                <div class="oppy-empty">Sin participantes</div><div id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportWrapper" class="participacion-panel-export-only"><div id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable_head"><tr role="row"><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable:j_idt797" class="ui-state-default" role="columnheader" aria-label="Participante" scope="col"><span class="ui-column-title">Participante</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable:j_idt799" class="ui-state-default" role="columnheader" aria-label="RUC" scope="col"><span class="ui-column-title">RUC</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable:j_idt801" class="ui-state-default" role="columnheader" aria-label="Estado" scope="col"><span class="ui-column-title">Estado</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable:j_idt803" class="ui-state-default" role="columnheader" aria-label="Valor Publicado" scope="col"><span class="ui-column-title">Valor Publicado</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable:j_idt805" class="ui-state-default" role="columnheader" aria-label="Propuesta Final" scope="col"><span class="ui-column-title">Propuesta Final</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable:j_idt807" class="ui-state-default" role="columnheader" aria-label="Variación" scope="col"><span class="ui-column-title">Variación</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable:j_idt809" class="ui-state-default" role="columnheader" aria-label="# Propuestas" scope="col"><span class="ui-column-title"># Propuestas</span></th></tr></thead><tbody id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosParticipantesExportTable_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="7">Sin participantes</td></tr></tbody></table></div></div></div>
+                        </div></div><div id="form-detalle-procesos-master:panelDetalleTabs:productosTab" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-helper-hidden" role="tabpanel" aria-hidden="true" data-index="2">
+                        <div class="participacion-sticky-header">
+                            <div class="participacion-sticky-grid">
+                                <div class="participacion-sticky-col1-row1">
+                                    <span class="participacion-sticky-title">SIE-EEASA-121-2023</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row1"><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt817" name="form-detalle-procesos-master:panelDetalleTabs:j_idt817" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="" title="Exportar productos a Excel" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-download"></span><span class="ui-button-text ui-c">Exportar productos a Excel</span></button><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt818" name="form-detalle-procesos-master:panelDetalleTabs:j_idt818" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt818&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master&quot;,onco:function(xhr,status,args,data){masterDetailClearParticipacionSelection();;}});return false;" title="Cerrar detalle" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-times-circle"></span><span class="ui-button-text ui-c">Cerrar detalle</span></button>
+                                </div>
+                                <div class="participacion-sticky-col1-row2">
+                                    <span class="participacion-sticky-subtitle">EMPRESA ELECTRICA AMBATO REGIONAL CENTRO NORTE S.A.</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row2"></div>
+                            </div>
+                        </div>
+                        <div class="oppy-detail-content participacion-productos-tab"><div class="participacion-participantes-cards-scroll">
+                                    <div class="participacion-participante-card participacion-producto-card oppy-summary-card">
+                                        <div class="participacion-producto-titulo-wrap">
+                                            <span class="participacion-producto-titulo oppy-filtro-tooltip-target">LUMINARIAS TIPO LED POTENCIA  HASTA 110W
+                                            </span>
+                                        </div>
+                                            <div class="participacion-participante-row participacion-participante-row-estado">
+                                                <span class="participacion-participante-kv">
+                                                    <span class="participacion-participante-lbl">CPC (9): </span>465390014
+                                                </span>
+                                            </div>
+                                        <div class="participacion-participante-row participacion-participante-row-mid">
+                                            <span class="participacion-participante-kv">
+                                                <span class="participacion-participante-lbl">Cantidad: </span>3000.00000
+                                            </span>
+                                            <span class="participacion-participante-kv">
+                                                <span class="participacion-participante-lbl">Unidad: </span>Unidad
+                                            </span>
+                                        </div>
+                                        <div class="participacion-participante-row participacion-participante-row-valores">
+                                            <span class="participacion-participante-kv">
+                                                <span class="participacion-participante-lbl">Precio unitario: </span>$ 249,40
+                                            </span>
+                                            <span class="participacion-participante-kv">
+                                                <span class="participacion-participante-lbl">Subtotal: </span>$ 748.200,00
+                                            </span>
+                                        </div>
+                                    </div></div><div id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportWrapper" class="participacion-panel-export-only"><div id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable" class="ui-datatable ui-widget"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable_head"><tr role="row"><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable:j_idt868" class="ui-state-default" role="columnheader" aria-label="CPC" scope="col"><span class="ui-column-title">CPC</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable:j_idt870" class="ui-state-default" role="columnheader" aria-label="Descripción CPC" scope="col"><span class="ui-column-title">Descripción CPC</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable:j_idt872" class="ui-state-default" role="columnheader" aria-label="Descripción Producto" scope="col"><span class="ui-column-title">Descripción Producto</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable:j_idt874" class="ui-state-default" role="columnheader" aria-label="Cantidad" scope="col"><span class="ui-column-title">Cantidad</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable:j_idt876" class="ui-state-default" role="columnheader" aria-label="Unidad" scope="col"><span class="ui-column-title">Unidad</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable:j_idt878" class="ui-state-default" role="columnheader" aria-label="P. Unitario" scope="col"><span class="ui-column-title">P. Unitario</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable:j_idt880" class="ui-state-default" role="columnheader" aria-label="Subtotal" scope="col"><span class="ui-column-title">Subtotal</span></th></tr></thead><tbody id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosProductosExportTable_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell" class="">465390014</td><td role="gridcell" class="">SISTEMA DE AHORRO DE ENERGIA PARA LA ILUMINACION PUBLICA</td><td role="gridcell" class="">LUMINARIAS TIPO LED POTENCIA  HASTA 110W</td><td role="gridcell" class="">3000.00000</td><td role="gridcell" class="">Unidad</td><td role="gridcell" class="">249,40</td><td role="gridcell" class="">748.200,00</td></tr></tbody></table></div></div></div>
+                        </div></div><div id="form-detalle-procesos-master:panelDetalleTabs:archivosTab" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-helper-hidden" role="tabpanel" aria-hidden="true" data-index="3"><script id="form-detalle-procesos-master:panelDetalleTabs:j_idt885" type="text/javascript">rcCargarArchivosDetalleProcesos = function() {return PrimeFaces.ab({s:"form-detalle-procesos-master:panelDetalleTabs:j_idt885",f:"form-detalle-procesos-master",u:"form-detalle-procesos-master",g:false,onst:function(cfg){if (typeof oppyBloqueoFuenteShow === 'function') { oppyBloqueoFuenteShow(); };},oner:function(xhr,status,error){if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); };},onco:function(xhr,status,args,data){if (typeof masterDetailClearArchivosTableFilters === 'function') { masterDetailClearArchivosTableFilters('detalleProcesosArchivosWV'); } if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); };},pa:arguments[0]});}</script>
+                        <div class="participacion-sticky-header">
+                            <div class="participacion-sticky-grid">
+                                <div class="participacion-sticky-col1-row1">
+                                    <span class="participacion-sticky-title">SIE-EEASA-121-2023</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row1"><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt890" name="form-detalle-procesos-master:panelDetalleTabs:j_idt890" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt890&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master&quot;,g:false,onst:function(cfg){if (typeof oppyBloqueoFuenteShow === 'function') { oppyBloqueoFuenteShow(); };},oner:function(xhr,status,error){if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); };},onco:function(xhr,status,args,data){if (args &amp;&amp; args.cargarArchivosPendiente &amp;&amp; typeof rcCargarArchivosDetalleProcesos === 'function') { rcCargarArchivosDetalleProcesos(); } else { if (typeof masterDetailClearArchivosTableFilters === 'function') { masterDetailClearArchivosTableFilters('detalleProcesosArchivosWV'); } if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); } };}});return false;" title="Actualizar" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-refresh"></span><span class="ui-button-text ui-c">Actualizar</span></button><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt892" name="form-detalle-procesos-master:panelDetalleTabs:j_idt892" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt892&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master&quot;,onco:function(xhr,status,args,data){masterDetailClearParticipacionSelection();;}});return false;" title="Cerrar detalle" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-times-circle"></span><span class="ui-button-text ui-c">Cerrar detalle</span></button>
+                                </div>
+                                <div class="participacion-sticky-col1-row2">
+                                    <span class="participacion-sticky-subtitle">EMPRESA ELECTRICA AMBATO REGIONAL CENTRO NORTE S.A.</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row2"></div>
+                            </div>
+                        </div>
+                        <div class="oppy-archivos-section participacion-tabla-tab">
+                                <div class="oppy-empty">Sin archivos</div>
+                        </div></div><div id="form-detalle-procesos-master:panelDetalleTabs:cronogramaTab" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-helper-hidden" role="tabpanel" aria-hidden="true" data-index="4"><script id="form-detalle-procesos-master:panelDetalleTabs:j_idt911" type="text/javascript">rcCargarCronogramaDetalleProcesos = function() {return PrimeFaces.ab({s:"form-detalle-procesos-master:panelDetalleTabs:j_idt911",f:"form-detalle-procesos-master",u:"form-detalle-procesos-master",g:false,onst:function(cfg){if (typeof oppyBloqueoFuenteShow === 'function') { oppyBloqueoFuenteShow(); };},oner:function(xhr,status,error){if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); };},onco:function(xhr,status,args,data){if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); };},pa:arguments[0]});}</script>
+                        <div class="participacion-sticky-header">
+                            <div class="participacion-sticky-grid">
+                                <div class="participacion-sticky-col1-row1">
+                                    <span class="participacion-sticky-title">SIE-EEASA-121-2023</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row1"><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt916" name="form-detalle-procesos-master:panelDetalleTabs:j_idt916" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt916&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master&quot;,g:false,onst:function(cfg){if (typeof oppyBloqueoFuenteShow === 'function') { oppyBloqueoFuenteShow(); };},oner:function(xhr,status,error){if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); };},onco:function(xhr,status,args,data){if (args &amp;&amp; args.cargarCronogramaPendiente &amp;&amp; typeof rcCargarCronogramaDetalleProcesos === 'function') { rcCargarCronogramaDetalleProcesos(); } else if (typeof oppyBloqueoFuenteHide === 'function') { oppyBloqueoFuenteHide(); };}});return false;" title="Actualizar" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-refresh"></span><span class="ui-button-text ui-c">Actualizar</span></button><button id="form-detalle-procesos-master:panelDetalleTabs:j_idt917" name="form-detalle-procesos-master:panelDetalleTabs:j_idt917" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-button-icon-only ui-button-outlined ui-button-sm oppy-config-button-compact" onclick="PrimeFaces.ab({s:&quot;form-detalle-procesos-master:panelDetalleTabs:j_idt917&quot;,f:&quot;form-detalle-procesos-master&quot;,u:&quot;form-detalle-procesos-master&quot;,onco:function(xhr,status,args,data){masterDetailClearParticipacionSelection();;}});return false;" title="Cerrar detalle" type="submit" role="button" aria-disabled="false"><span class="ui-button-icon-left ui-icon ui-c pi pi-times-circle"></span><span class="ui-button-text ui-c">Cerrar detalle</span></button>
+                                </div>
+                                <div class="participacion-sticky-col1-row2">
+                                    <span class="participacion-sticky-subtitle">EMPRESA ELECTRICA AMBATO REGIONAL CENTRO NORTE S.A.</span>
+                                </div>
+                                <div class="participacion-sticky-col2-row2"></div>
+                            </div>
+                        </div>
+                        <div class="oppy-detail-content participacion-tabla-tab"><div id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosCronogramaTable" class="ui-datatable ui-widget ui-datatable-scrollable"><div class="ui-widget-header ui-datatable-scrollable-header"><div class="ui-datatable-scrollable-header-box"><table role="grid"><thead id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosCronogramaTable_head"><tr role="row"><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosCronogramaTable:j_idt928" class="ui-state-default" role="columnheader" aria-label="Etapa" scope="col" style="width:75%;"><span class="ui-column-title">Etapa</span></th><th id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosCronogramaTable:j_idt930" class="ui-state-default" role="columnheader" aria-label="Fecha" scope="col" style="width:25%;"><span class="ui-column-title">Fecha</span></th></tr></thead></table></div></div><div class="ui-datatable-scrollable-body" tabindex="-1" style="max-height:flexpx"><table role="grid"><tbody id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosCronogramaTable_data" class="ui-datatable-data ui-widget-content"><tr class="ui-widget-content ui-datatable-empty-message"><td colspan="2">Sin fechas de control</td></tr></tbody></table></div><div class="ui-widget-header ui-datatable-scrollable-footer"><div class="ui-datatable-scrollable-footer-box"><table role="grid"></table></div></div><input type="hidden" id="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosCronogramaTable_scrollState" name="form-detalle-procesos-master:panelDetalleTabs:detalleProcesosCronogramaTable_scrollState" autocomplete="off" value="0,0"></div>
+                        </div></div></div>

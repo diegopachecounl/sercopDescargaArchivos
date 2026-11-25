@@ -1,0 +1,6 @@
+{
+  "name": "SERCOP Descarga de Archivos",
+  "description": "Herramienta de consulta y descarga selectiva de archivos de procesos de contratación pública del portal SERCOP con conservación de nombres y extensiones originales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

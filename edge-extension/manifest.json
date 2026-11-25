@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "SERCOP Descarga de Archivos",
+  "version": "1.0.0",
+  "description": "Lee el proceso SERCOP de la pestaña activa, consulta tab=6 y descarga los archivos seleccionados con su nombre y extensión original.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "downloads",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.compraspublicas.gob.ec/*",
+    "http://*.compraspublicas.gob.ec/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SERCOP Descarga de Archivos",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
